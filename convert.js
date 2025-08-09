@@ -20,3 +20,18 @@ function inchToFeet2(inch){
 
 const shuvoHeight = inchToFeet(75);
 const shovoHeight2 = inchToFeet2(75);
+
+
+function mileToKeilometer(mile){
+    const kilo = mile * 1.60934;
+    return kilo;
+}
+
+function kiloMeterToMiles(kilo){
+    const mile = kilo * 0.621371;
+    return mile;
+}
+const kilo = mileToKeilometer(2);
+const mile = kiloMeterToMiles(2);
+console.log(kilo,mile);
+
